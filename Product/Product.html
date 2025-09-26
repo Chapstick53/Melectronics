@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prestige</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+  <!-- Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="Product.css">
+  <link rel="stylesheet" href="/Navbar.css">
+  <link rel="stylesheet" href="/Footer.css">
+</head>
+
+<body>
+  <!-- ✅ Navbar -->
+  <!-- ✅ Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="/index.html">Prestige</a>
+
+      <!-- Toggler triggers the Offcanvas instead of Collapse -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Offcanvas Sidebar -->
+      <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Prestige</h5>
+          <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ml-5">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link text-white" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="/About/About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/Suppliers/Supplierr.html">Suppliers</a>
+            </li>
+            <!-- <li class="nav-item ">
+            <a class="nav-link text-white" href="/Product/Product.html">Products</a>
+          </li> -->
+
+            <li class="nav-item dropdown position-static mega-dropdown">
+              <a class="nav-link text-white " href="/Product/Product.html" id="megaDropdownToggle"
+                role="button">Product</a>
+              <div class="dropdown-menu mt-2 border-0 bg-black text-white p-4 mega-menu"
+                aria-labelledby="megaDropdownToggle">
+                <div class="row">
+
+                  <div class="col-md-4 px-5">
+                    <h6 class="menu-heading">Polycab India Limited
+                    </h6>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Aluminium Armoured.Unarmoured cable/aluminum_armoured.html">Aluminium
+                      Armoured / Unarmoured cable</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Copper Armoured Cable/Copper_armoured.html">Copper
+                      Armoured Cable</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/HT Cable 11.33 KV/ht_cable.html">HT Cable 11 /33
+                      KV</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Solar Cable 1.9/Solar Cable 1.9.html">Solar Cable
+                      1.9 /3.3</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Instrumation Armoured Cables/Instrumation Armoured Cables.html">Instrumation
+                      Armoured cables</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription//POLYCAB INDIA LIMITED/Solar DC Wire/Solar DC Wire.html">Solar DC Wire
+                    </a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Building Wire FR.FRLSH/building_Wire.html">Building
+                      Wire FR/FRLSH </a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription//POLYCAB INDIA LIMITED//Flexible Multicore FR.FRLSH/Flexible Multicore FR.FRLSH.html">Flexible
+                      Multicore FR/FRLSH </a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription//POLYCAB INDIA LIMITED//CCTV Camera Wire/CCTV_Camera_Wire.html">CCTV
+                      Camra Wire</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription//POLYCAB INDIA LIMITED/Smart Modular Range/Smart Modular Range.html">Smart
+                      Modular Range</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/Industrial Telephone Cables/Industrial Telephone Cables.html">Industrial
+                      Telephone Cables</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/POLYCAB INDIA LIMITED/CAT 6/CAT6.html">CAT 6 </a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription//POLYCAB INDIA LIMITED/RG 6 Copper CCS/RG 6 Copper CCS.html">RG 6 Copper
+                      / CCS </a>
+                    <a class="dropdown-item text-white" href="/Product/Product.html">Others</a>
+                  </div>
+                  <div class="col-md-2">
+                    <h6 class="menu-heading">RR Kabel </h6>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/RR KABEL/FR.FRLSH Multicore/FR.FRLSH Multicore.html">FR/FRLSH
+                      Multicore</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/RR KABEL/Flexible Multicore/Flexible Multicore.html">Flexible Multicore
+                    </a>
+                    <a class="dropdown-item text-white" href="/ProductDescription/RR KABEL/Q1 90 Mtr/Q1 90 Mtr.html">Q1
+                      90 Mtr</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/RR KABEL/Shielded cable/Shielded cable.html">Shielded cable </a>
+                    <a class="dropdown-item text-white" href="/Product/Product.html">Others</a>
+
+
+                  </div>
+                  <div class="col-md-3">
+                    <h6 class="menu-heading">Havells India Limited
+                    </h6>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/HAVELLS INDIA LIMITED/Aluminium Armoured. Unarmoured/Aluminium Armoured. Unarmoured.html">Aluminium
+                      Armoured/ Unarmoured <br>cables</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/HAVELLS INDIA LIMITED/Copper Armoured Cables/Copper Armoured Cables.html">Copper
+                      Armoured Cables</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/HAVELLS INDIA LIMITED/HT Cables/HT Cables.html">HT cables </a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/HAVELLS INDIA LIMITED/Solar Cables/Solar Cables.html"> Solar Cables</a>
+                    <a class="dropdown-item text-white" href="/Product/Product.html">Others </a>
+                  </div>
+                  <div class="col-md-3">
+                    <h6 class="menu-heading">Dowells </h6>
+                    <a class="dropdown-item text-white" href="/ProductDescription/DOWELLS/LUGS/LUGS.html">LUGS</a>
+                    <a class="dropdown-item text-white" href="/ProductDescription/DOWELLS/Pumps/Pumps.html">Pumps</a>
+                    <a class="dropdown-item text-white" href="/ProductDescription/DOWELLS/Glands/Glands.html">Glands</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/DOWELLS/Crimping Tools/Crimping Tools.html">Crimping tools</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/DOWELLS/Energy Saver/Energy Saver.html">Energy Saver</a>
+
+                    <h6 class="menu-heading mt-3"> Others</h6>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/OTHERS/Neptune Bals/Neptune Bals.html">Neptune Bals</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/OTHERS/Hager Switchgear/Hager Switchgear.html">Hager Switchgear</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/OTHERS/SGP Sheet Cable Treys/SGP Sheet Cable Treys.html">SGP Sheet Cable
+                      Treys</a>
+                    <a class="dropdown-item text-white"
+                      href="/ProductDescription/OTHERS/Earthing Material/Earthing Material.html"> Earthing Material
+                    </a>
+                    <a class="dropdown-item text-white" href="/Product/Product.html">Other Electrical Accessories
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/Contact/Contact.html">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#" class="nav-link border rounded text-white">
+                <i class="ri-phone-line"></i> Get Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Floating Social Menu -->
+  <div class="container-fluid p-0">
+
+    <div class="social-menu">
+
+      <!-- Checkbox for toggle -->
+      <input type="checkbox" name="social-menu-open" id="social-menu-open" class="social-menu-open">
+
+      <!-- Toggle Button -->
+      <label for="social-menu-open" class="social-menu-open-button">
+        <img src="/images/chatbot.gif" alt="Chat">
+      </label>
+
+      <!-- Social Icons -->
+      <a href="tel:+919828156790" class="fs-4 menu-item bg-3b5998" title="Call">
+        <i class="fas fa-phone"></i>
+      </a>
+
+      <a href="mailto:prestige.jpr@gmail.com" class="fs-4 menu-item bg-e1306c" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <a href="https://wa.me/9828156790" class="fs-4 menu-item bg-25d366" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <a href="./broucher.pdf" download="Broucher.pdf" class="fs-4 menu-item bg-efc315" title="Brochure">
+        <i class="fas fa-circle-info"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- ✅ Hero Section -->
+  <section class="hero-section">
+    <div class="container-fluid text-center">
+
+      <h1>Our <span style="color:#FF1E5E;">Product Range</span></h1>
+      <p class="hero_section_desc"> Comprehensive electrical solutions for residential,commercial,and industrial <br>
+        applications from India's most
+        trusted brand.</p>
+    </div>
+  </section>
+
+
+  <!-- pRODUCT sECTION -->
+
+  <!-- 1 Polycab India Limited -->
+  <section class="product_section">
+
+    <!-- <div class="container-fluid">
+      <div class="filter-bar">
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="btn filter-btn">
+            <div>
+              <i class="ri-filter-3-line"></i> Filter
+          </button>
+          <span class="mx-3 filterShow">Showing 8 categories</span>
+        </div>
+
+        <div class="toggle-buttons">
+          <button class="btn active">
+            <i class="ri-grid-fill"></i>
+          </button>
+          <button class="btn">
+            <i class="ri-menu-line"></i>
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+    <div class="container py-2">
+      <div class="container-fluid d-flex justify-content-between align-items-center product-head">
+        <h1 class="mb-0">Polycab India Limited</h1>
+        <p class="mb-0">All Products</p>
+      </div>
+      <div class="row g-4 product-slider">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Aluminium_Armoured_Unarmoured_cable-removebg-preview.png"
+              alt="Aluminium Armoured / Unarmoured cable">
+
+            <div class="product-title">
+              Aluminium Armoured / Unarmoured cable
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/PolyArmoured.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Copper-Armoured-Cable-removebg-preview.png" alt="Copper Armoured Cable">
+            <div class="product-title">Copper Armoured Cable</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Copper Armoured Cable/Copper_armoured.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/HT_Cable_11_-33_KV_299543-removebg-preview.png" alt="HT Cable 11 /33 KV
+">
+            <div class="product-title">HT Cable 11 /33 KV
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/HT Cable 11.33 KV/ht_cable.html" class="know-more">Know
+                more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Solar_Cable_1.9-removebg-preview.png" alt="Solar Cable 1.9 /3.3">
+            <div class="product-title">Solar Cable 1.9 /3.3
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Solar Cable 1.9/Solar Cable 1.9.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Instrumation_Armoured_cables-removebg-preview.png" alt="Instrumation Armoured cables">
+            <div class="product-title">Instrumation Armoured cables </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Instrumation Armoured Cables/Instrumation Armoured Cables.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Solar_DC_Wire-removebg-preview.png " alt="Solar DC Wire">
+
+            <div class="product-title">Solar DC Wire</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Solar DC Wire/Solar DC Wire.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 7-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Building_Wire_FR-FRLSH-removebg-preview.png" alt="Building Wire FR/FRLSH
+">
+
+            <div class="product-title">Building Wire FR/FRLSH
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Building Wire FR.FRLSH/building_Wire.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 8-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/CCTV Camra Wire.png" alt="CCTV Camra Wire
+">
+
+            <div class="product-title">CCTV Camra Wire
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/CCTV Camera Wire/CCTV_Camera_Wire.html"
+                class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Card 9-->
+
+        <!-- <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/3_Core_Flat_Submersible_cable-removebg-preview.png" alt="3 Core Flat Submersible cable
+
+">
+
+            <div class="product-title">3 Core Flat Submersible cable
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div> -->
+
+        <!-- Card 10-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/industrialcABLE.png" alt="Industrial Telephone Cables
+
+
+">
+
+            <div class="product-title">Industrial Telephone Cables
+
+
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/Industrial Telephone Cables/Industrial Telephone Cables.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Card 11-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/CAT 6.png" alt="CAT 6 
+
+">
+
+            <div class="product-title">CAT 6
+
+
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/CAT 6/CAT6.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 12-->
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/imageS/RG6- Copper-CCS.png" alt="RG 6 Copper / CCS 
+
+">
+
+            <div class="product-title"> RG 6 Copper / CCS
+
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/POLYCAB INDIA LIMITED/RG 6 Copper CCS/RG 6 Copper CCS.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- RR Kabel -->
+  <section class="product_section">
+
+    <!-- <div class="container-fluid">
+      <div class="filter-bar">
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="btn filter-btn">
+            <div>
+              <i class="ri-filter-3-line"></i> Filter
+          </button>
+          <span class="mx-3 filterShow">Showing 8 categories</span>
+        </div>
+
+        <div class="toggle-buttons">
+          <button class="btn active">
+            <i class="ri-grid-fill"></i>
+          </button>
+          <button class="btn">
+            <i class="ri-menu-line"></i>
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+    <div class="container py-5">
+      <div class="container-fluid d-flex justify-content-between align-items-center product-head">
+        <h1 class="mb-0">RR Kabel</h1>
+        <p class="mb-0">All Products</p>
+      </div>
+      <div class="row g-4 product-slider">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/FRFRLSHMulticore.png" alt="FR/FRLSH Multicore">
+
+            <div class="product-title">
+              FR/FRLSH Multicore
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/RR KABEL/FR.FRLSH Multicore/FR.FRLSH Multicore.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Flexible-Multicore.png" alt="Flexible Multicore 
+">
+            <div class="product-title">Flexible Multicore
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/RR KABEL/Flexible Multicore/Flexible Multicore.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Q190 Mtr.png" alt="Coaxial Cables">
+            <div class="product-title">Q1 90 Mtr</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/RR KABEL/Q1 90 Mtr/Q1 90 Mtr.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/Shielded--cable.png" alt="Shielded cable">
+            <div class="product-title">Shielded cable</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/RR KABEL/Shielded cable/Shielded cable.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Havells India Limited -->
+  <section class="product_section">
+
+
+
+
+
+
+    <div class="container py-5">
+      <div class="container-fluid d-flex justify-content-between align-items-center product-head">
+        <h1 class="mb-0">Havells India Limited</h1>
+        <p class="mb-0">All Products</p>
+      </div>
+      <div class="row g-4 product-slider">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/AluminiumUnarmoured-cables.png" alt="Aluminium Armoured/ Unarmoured cables
+">
+
+            <div class="product-title">
+              Aluminium Armoured/ Unarmoured cables
+
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/HAVELLS INDIA LIMITED/Aluminium Armoured. Unarmoured/Aluminium Armoured. Unarmoured.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/COOPERARMOUREDCABLESHAVELS.png" alt="Copper Armoured Cables">
+            <div class="product-title">Copper Armoured Cables</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/HAVELLS INDIA LIMITED/Copper Armoured Cables/Copper Armoured Cables.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/HTCABLES.png" alt="HT cables 
+">
+            <div class="product-title">HT cables </div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/HAVELLS INDIA LIMITED/HT Cables/HT Cables.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/solarcablehavels.png" alt="Solar Cables">
+            <div class="product-title">Solar Cables</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/HAVELLS INDIA LIMITED/Solar Cables/Solar Cables.html" class="know-more">Know more</a>
+
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3">
+                  <i class="ri-download-line" style="font-size: 18px;"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Dowells  -->
+
+  <section class="product_section">
+    <div class="container py-5">
+      <div class="container-fluid d-flex justify-content-between align-items-center product-head">
+        <h1 class="mb-0">Dowells</h1>
+        <p class="mb-0">All Products</p>
+      </div>
+
+      <!-- PRODUCT SLIDER ROW -->
+      <div class="row g-4 product-slider">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/lugs.png" alt="Cable 1">
+            <div class="product-title">LUGS</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/DOWELLS/LUGS/LUGS.html" class="know-more">Know more</a>
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3"><i class="ri-download-line" style="font-size: 18px;"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/glandsdowels.png" alt="Switches & Sockets">
+            <div class="product-title">Glands</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/DOWELLS/Glands/Glands.html" class="know-more">Know more</a>
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3"><i class="ri-download-line" style="font-size: 18px;"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product-card">
+            <img src="/images/criming tools.png" alt="Crimping tools">
+            <div class="product-title">Crimping tools</div>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <a href="/ProductDescription/DOWELLS/Crimping Tools/Crimping Tools.html" class="know-more">Know more</a>
+              <a href="https://cms.polycab.com/media/nsvntjkw/isid00473_ds_01.pdf" target="_blank"
+                class="text-decoration-none">
+                <span class="fw-bold pe-3"><i class="ri-download-line" style="font-size: 18px;"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-4 mb-4">
+          <h2 class="fw-bold">
+            <span class="text-highlight" style="color:#FF1E5E;">Prestige</span>
+          </h2>
+          <p>Your trusted partner for premium electrical solutions. We supply quality products from leading
+            brands to power your projects.</p>
+          <div class="social-icons-destop">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4 quicklinks">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled quicklinks">
+            <li><a href="#" class="text-decoration-none ">About Us</a></li>
+            <li><a href="#" class="text-decoration-none ">Our Suppliers</a></li>
+            <li><a href="#" class="text-decoration-none  ">Products</a></li>
+            <li><a href="#" class="text-decoration-none  ">Testimonials</a></li>
+          </ul>
+        </div>
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h5>Contact Info</h5>
+          <p><i class="ri-phone-line me-2"></i>+91 98281 56790</p>
+          <p><i class="ri-mail-line me-2"></i> iprestige.jpr@gmail.com</p>
+          <p><i class="ri-map-pin-line me-2"></i>Shop No. B-9, Lalpura Colony, S.C. Road, Motilal Atal Road,
+            Jaipur-302001</p>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 prestige. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <!-- Slick JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+  <!-- ✅ Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+  <script src="/script.js"></script>
+
+  <script>
+    lucide.createIcons();
+  </script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      disable: 'mobile',
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').slick({
+        arrows: false,    // Show arrows
+        dots: false,     // Hide dots (optional)
+        slidesToShow: 1, // Show one slide at a time
+        autoplay: true,  // Auto slide (optional)
+        autoplaySpeed: 1000
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      function initMobileSlider() {
+        if (window.innerWidth < 576) {
+          if (!$('.product-slider').hasClass('slick-initialized')) {
+            $('.product-slider').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              arrows: false,
+              dots: false,
+            });
+          }
+        } else {
+          if ($('.product-slider').hasClass('slick-initialized')) {
+            $('.product-slider').slick('unslick');
+          }
+        }
+      }
+
+      initMobileSlider();
+      $(window).on('resize', initMobileSlider);
+    });
+  </script>
+
+
+</body>
+
+</html>
